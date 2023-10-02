@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+html{
+    scroll-behavior:smooth;
+    border: black;
+}
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.nav-links a{
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 30px;
+}
+.nav-links a:hover{
+    transition: ease 0.75s;
+    background-color: white;
+    color: black;
+}
+.nav-links li{
+    list-style: none
+    
+}
+nav .shop{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease ;
+}
+video{
+    position: fixed;
+    width: 100%;
+} 
+.logo{
+    height: 100vh;
+    text-align: center;
+    padding-top: 70px;
+}
+.banner img{
+    display: inline-block;
+    position: relative;
+}
+.row-1{
+   width: inherit; 
+   background-color: rgb(10, 10, 10, 0.5);
+   position: relative;
+   text-align: center;
+   padding-bottom: 50px;
+}
+.row-1 h1{
+   color: white;
+   font-family: 'Pattaya', sans-serif;
+   font-size: 100px;
+   padding: 50px 0;
+}
+.reviews img{
+    padding-bottom: 50px;
+    border-radius: 30px;
+    opacity: 0.9;  
+}
+.reviews-2{
+    color: white;
+    padding: 0 300px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+}
+#erb{
+    border-radius: 50px;
+    opacity: 0.9;
+}
+.fb-feed{
+    padding-top: 50px;
+   padding-bottom: 50px;
+}
+.row-1 iframe{
+   border: solid 10px rgb(66 103 178);
+   border-radius: 20px;
+}
+.row-1 ul a{
+   list-style-type: none;
+   text-decoration: none;
+   background-color:rgb(66 103 178);
+   font-family: 'Pattaya', sans-serif;
+   color: white;
+   font-size: 40px;
+   padding: 5px;
+   border-radius: 10px;
+   border: solid 10px rgb(66 103 178);
+}
+.row-1 ul a:hover{
+   transition: ease-in 0.3s;
+   border-color: white;
+   opacity: 1;
+}
+.tickets ul a{
+   list-style-type: none;
+   text-decoration: none;
+   background-color:rgb(220, 10, 10);
+   font-family: sans-serif;
+   color: white;
+   font-size: 40px;
+   padding: 5px;
+   border-radius: 10px;
+   border: solid 10px rgb(220, 10, 10);
+}
+.tickets ul a:hover{
+   transition: ease-in 0.3s;
+   border-color: white;
+   opacity: 1;
+}
+.row-2{
+    position: relative;
+    background-color: rgb(10, 10, 10, 0.9);
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.row-2 h1{
+    font-family: 'Pattaya', sans-serif;
+    padding: 50px 0;
+    font-size: 100px;
+}
+.row-2 p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 70px;
+}
+.festival h1{
+    font-size: 60px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.row-3{
+    position: relative;
+    text-align: center;
+}
+.row-3 h1{
+    padding: 50px 0;
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 100px;
+}
+.row-3 img, .row-3 iframe{
+    border: solid 10px rgb(52,44,24);
+    border-radius: 10px;
+}
+.row-3 ul{
+    padding: 50px;
+}
+.row-3 ul a{
+    list-style-type: none;
+    text-decoration: none;
+    background-color:rgb(30 215 96);
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(225, 236, 229);
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 10px rgb(30 215 96);
+}
+.row-3 ul a:hover{
+    transition: ease-in 0.3s;
+    border-color: white;
+    opacity: 1;
+}
+.row-4{
+    color: white;
+    position: relative;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+.row-4 h1{
+    font-family: 'Pattaya', sans-serif;
+    padding: 50px 0;
+    font-size: 100px;
+}
+.row-4 iframe{
+    border: solid 10px rgb(255 0 0);
+    border-radius: 50px;
+}
+.row-4 ul{
+    padding: 50px;
+    list-style-type: none;
+}
+.row-4 ul a{
+    list-style-type: none;
+    text-decoration: none;
+    background-color:rgb(255,0,0);
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 10px rgb(255,0,0);
+}
+.row-4 ul a:hover{
+    transition: ease-in 0.3s;
+    border-color: white;
+    opacity: 1;
+}  
+.row-5{
+    position: relative;
+    text-align: center;
+    background-color: rgb(10, 10, 10, 0.5);
+    color: white;
+    padding-bottom: 100px;
+}
+.row-5 h1{
+    font-family: 'Pattaya', sans-serif;
+    opacity: 1;
+    padding: 50px 0;
+    font-size: 100px;
+}
+.row-5 h5{
+    opacity: 1;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 60px;
+}
+.row-5 sup{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+}
+.row-6{
+    background-color: rgb(10, 10, 10, 0.9);
+    position: relative;
+    text-align: center;
+    padding-bottom:100px;
+}
+.row-6 h1{
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    padding: 50px 0;
+    font-size: 100px;
+}
+.row-6 p{
+    opacity: 1;
+    color: white;
+    padding: 0 300px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+}
+.form{
+    position: relative;
+    text-align: center;
+    opacity: 1.5;
+    
+}
+.form iframe{
+    border: solid 10px white;
+    border-radius: 0px;
+}
+
+
+
+footer, .socials-2{
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: rgb(10, 10, 10, 0.9);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+footer h1{
+    font-family: 'Pattaya', sans-serif;
+    padding: 50px 0;
+    font-size: 100px;
+}
+.email{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: rgb(241, 237, 237);
+}
+.socials{
+    padding-top: 10px;
+}
+.facebook, .instagram{
+    border-radius: 35px;
+    border: transparent;
+}
+
+@media all and (max-width: 850px){
+     body{
+        overflow-x: hidden;
+    }
+   .row-1 h1{
+        font-size: 50px;
+        padding-bottom: 40px;
+    }
+    .reviews img{
+        width: auto;
+        height: auto;
+    }
+    .reviews-2{
+        font-size: 30px;
+        padding: 0 0;
+    }
+    .row-1 iframe{
+        width: 700px;
+        height: 500px;
+    }
+    .row-1 ul a{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .row-2, .row-2 h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .row-2 a{
+        font-size: 15px;
+        
+    }
+    .festival h1{
+        font-size: 40px;
+    }
+    .festival img{
+        width: 500px;
+        height: 500px;
+    } 
+    .row-3, .row-3 h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .row-3 ul a{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .row-3 img{
+        width: 350px;
+        height: 350px;
+    }
+    .row-3 iframe{
+        width: 350px;
+        height: 350px;
+    }
+    .row-4 iframe{
+        width: 350px;
+        height: 400px;
+    }
+    .row-4 ul a{
+        font-size: 30px;
+
+    }
+    .row-5 h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .row-5 h5{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .row-6 h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .row-6 p{
+        font-size: 30px;
+        padding: 0 0;
+    }
+    footer h1{
+        font-size: 50px;
+    }    
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: black(92, 3, 7);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(0%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+    video{
+        display: none;
+    }
+    .logo img{
+        pointer-events: none;
+        opacity: 0.5;
+        height: 214px;
+        width: 300px;
+        display: inline-flex;
+        position: relative;
+    }
+}
+
+.nav-active{
+        transform: translateX(0%);
+    }
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
