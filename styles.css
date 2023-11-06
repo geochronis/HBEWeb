@@ -173,8 +173,12 @@ video{
     font-family: 'Pattaya', sans-serif;
     font-size: 100px;
 }
+.new-single h1{
+    font-size: 60px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 .row-3 img, .row-3 iframe{
-    border: solid 10px rgb(52,44,24);
+    border: solid 10px rgb(0, 0, 0);
     border-radius: 10px;
 }
 .row-3 ul{
